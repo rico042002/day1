@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <style type="text/css">
+ 	.bg-1 {
+ 		background-color: Navy;
+ 		color: #ffffff;
+ 	}
+
+ 	.bg-2 {
+ 		background-color: black;
+ 		color: #ffffff;
+ 	}
+
+ 	.bg-3 {
+ 		background-color: OrangeRed;
+ 		color: #ffffff;
+ 	}
+
+ 	.bg-4 {
+ 		background-color: #2f2f2f;
+ 		color: #ffffff;
+ 	}
+
+ 	.container-fluid {
+ 		padding-top: 70px;
+ 		padding-bottom: 70px;
+ 	}
+
+ 	.navbar {
+ 		padding-top: 15px;
+ 		padding-bottom: 15px;
+ 		border: 0;
+ 		border-radius: 0;
+ 		margin-bottom: 0;
+ 		font-size: 12px;
+ 		letter-spacing: 5px;
+ 	}
+
+ 	.navbar-nav li a:hover {
+ 		color: Navy !important;
+ 	}
+
+ 	body {
+ 		font: 50px;
+ 		line-height: 1.8;
+ 	}
+
+ 	p {
+ 		font-size: 36px;
+ 	}
+
+ 	* {
+ 		font-family: 'Rancho', cursive;
+ 	}
+    
+    @import url('https://fonts.googleapis.com/css?family=Rancho');
+
+    .margin {
+    	margin-bottom: 45px;
+    }
+
+ </style>
+	<title>I'm me</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Rancho" rel="stylesheet">
+</head>
+
+<body>
+
+<div class="container-fluid bg-1 text-center" id="top">
+	<h1>Who Am I?</h1>
+	<img src="img/goku.gif" alt="cartoon picture" class="img-circle img-responsive" height="500" width="500" id="mainpic" style="display:inline;">
+	<h1>I'm an Otaku</h1>
+</div>
+
+<div class="container-fluid bg-2 text-center">
+	<h1 id="middle">What Am I?</h1>
+	<p>
+		A nerd who's been rebooting desktops since Window's 95, learning web developer/programmer. A lover of all things anime.
+	</p>
+	<a href="#" class="btn btn-default btn-lg" onclick="chng()" value=" next. . ">Change Sayian
+		<span class="glyphicon glyphicon-fire"></span>
+	</a>
+</div>
+
+<div class="container-fluid bg-3 text-center">
+	<h1>Where To Find Me?</h1>
+	<div class="row">
+		<div class="col-sm-4">
+			<p id="bottom">Free Code Camp</p>
+			<a href="https://www.freecodecamp.com/rico042002"><img src="img/fcc4.jpg" alt="Image"></a>
+		</div>
+		<div class="col-sm-4">
+			<p>CodeCademy</p>
+			<a href="https://www.codecademy.com/bitPlayer85665"><img src="img/codec4.jpg" alt="Image"></a>
+		</div>
+		<div class="col-sm-4">
+			<p>Github</p>
+			<a href="https://github.com/rico042002"><img src="img/ghlogo2.jpg" alt="Image"></a>
+		</div>
+	</div>
+</div>
+<nav class="navbar navbar-default">
+	<div class="container">
+		<div class="navbar-header">
+			<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+			</button>
+			<a class="navbar-brand" href="#">Me</a>
+		</div>
+		<div class="collapse navbar-collapse" id="myNavbar"> 
+			<ul class="nav navbar-nav navbar-right">
+				<li><a href="#top">WHO</a></li>
+				<li><a href="#middle">WHAT</a></li>
+				<li><a href="#bottom">WHERE</a></li>
+			</ul>
+		</div>
+	</div>
+</nav>
+
+<footer class="container-fluid bg-4 text-center">
+	<p>Bootstrap Theme Made By <a href="https://www.w3schools.com">www.w3schools.com</a></p>
+</footer>
+
+<script src='js/main.js'></script>
+
+</body>
+</html>
